@@ -1,1 +1,6 @@
+As the output of git status tells you, if you want Git to start tracking a file, you must git add it. The git add action places a file in a special staging area, where files wait to be committed, or preserved for posterity in a snapshot. The point of a git add is to differentiate between files that you want to have included in a snapshot, and the new or temporary files you want Git to, at least for now, ignore.
+
+In our tape deck analogy, this action turns the tape deck on and arms it for recording. You can picture the tape deck with the record and pause button pushed, or in a playback loop awaiting the next track to be laid down.
+
+Once you add a file, Git will identify it as a tracked file:
 
